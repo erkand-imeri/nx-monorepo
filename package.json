@@ -3,8 +3,10 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
+    "start:all": "nx run-many --target=serve --all --maxParallel=100",
     "start": "nx serve",
     "build": "nx build",
+    "build:all": "nx run-many --target=build --all --maxParallel=100",
     "test": "nx test"
   },
   "private": true,

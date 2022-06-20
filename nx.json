@@ -2,7 +2,7 @@
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "npmScope": "nx-monorepo",
   "affected": {
-    "defaultBase": "main"
+    "defaultBase": "master"
   },
   "implicitDependencies": {
     "package.json": {
@@ -23,6 +23,5 @@
     "build": {
       "dependsOn": ["^build"]
     }
-  },
-  "defaultProject": "ticket-details-app"
+  }
 }
